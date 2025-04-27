@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Homestyle.css">
+    <link rel="stylesheet" href="Contact.css">
+</head>
+
+<body>
+
+    <!--navbar section-->
+    <nav class="navbar">
+        <div class="nav">
+            <a href="index.html"><img src="img/Logo.png" class="brand-logo" alt=""></a>
+            <div class="nav-items">
+                <div class="search">
+                    <input type="text" class="search-box" placeholder="search brand, product">
+                    <button class="search-btn">search</button>
+                </div>
+                <a href="#"><img src="img/user.png" alt=""></a>
+                <a href="#"><img src="img/cart.png" alt=""></a>
+                <a class="contact" href=""><img src="img/contact.png" style="margin-right: 10px;">   Contact us!</a>
+            </div>
+        </div>
+        <ul class="links-container">
+            <li class="link-item"><a href="index.html" class="link">home</a></li>
+            <li class="link-item"><a href="#" class="link">women</a></li>
+            <li class="link-item"><a href="#" class="link">men</a></li>
+            <li class="link-item"><a href="#" class="link">kids</a></li>
+        </ul>
+    </nav>
+
+    
+    <!-- CONTACT FORM -->
+    <div class="Contact-section">
+        <div class="contact-text">
+            <h2>Get in Touch with Kuzai Shop!</h2>
+            <p>
+                Have any questions? We're here to help! Reach out to us for any inquiries related to orders, products, or general support. 
+                Our team is always ready to assist you.
+            </p>
+            <p>
+                You can also find us on social media or call us directly at our support numbers listed below. We strive to offer the best 
+                customer service experience possible.
+            </p>
+        </div>
+        <div class="contact-form" onsubmit="return validateForm()">
+            <form class="form">
+                <div class="pageTitle title">Sign Up </div>
+                <div class="secondaryTitle title">Please fill this form to sign up.</div>
+                <input type="text" class="name formEntry" placeholder="Name" required minlength="3"/>
+                <input type="text" class="email formEntry" placeholder="Email" required/>
+                <textarea class="message formEntry" placeholder="Message" required minlength="10"></textarea>
+                <input type="checkbox" class="termsConditions" value="Term" required>
+                <label style="color: grey" for="terms"> I Accept the <span style="color:rgb(12, 12, 15)">Terms of Use</span> & <span style="color: rgb(10, 10, 12)">Privacy Policy</span>.</label><br>
+                <button class="submit formEntry">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+    <!--Footer-->
+
+    <footer>
+        <div class="footer-content">
+            <img src="img/light-logo.png" class="logo" alt="">
+            <div class="footer-ul-container">
+                <ul class="category">
+                    <li class="category-title">men</li>
+                    <li><a href="#" class="footer-link">t-shirts</a></li>
+                    <li><a href="#" class="footer-link">shirts</a></li>
+                    <li><a href="#" class="footer-link">jeans</a></li>
+                    <li><a href="#" class="footer-link">trousers</a></li>
+                    <li><a href="#" class="footer-link">shoes</a></li>
+                    <li><a href="#" class="footer-link">casuals</a></li>
+                    <li><a href="#" class="footer-link">formals</a></li>
+                    <li><a href="#" class="footer-link">sports</a></li>
+                    <li><a href="#" class="footer-link">watch</a></li>
+                </ul>
+                <ul class="category">
+                    <li class="category-title">women</li>
+                    <li><a href="#" class="footer-link">t-shirts</a></li>
+                    <li><a href="#" class="footer-link">sweatshirts</a></li>
+                    <li><a href="#" class="footer-link">shirts</a></li>
+                    <li><a href="#" class="footer-link">jeans</a></li>
+                    <li><a href="#" class="footer-link">trousers</a></li>
+                    <li><a href="#" class="footer-link">shoes</a></li>
+                    <li><a href="#" class="footer-link">casuals</a></li>
+                    <li><a href="#" class="footer-link">formals</a></li>
+                    <li><a href="#" class="footer-link">sports</a></li>
+                    <li><a href="#" class="footer-link">watch</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-title">About company</p>
+        <p class="info1">Welcome to Kuzai's Shop, your ultimate destination for stylish, high-quality fashion. We pride ourselves on offering a curated collection 
+                        of trendy apparel for men, women, and kids—everything from casual wear to statement pieces that elevate your wardrobe. At Kuzai's Shop, 
+                        we believe in delivering both comfort and style, ensuring every outfit makes you feel confident and chic. Explore our best-sellers and discover 
+                        why Kuzai’s Shop is the go-to place for fashion-forward shoppers!</p>
+        <p class="info">support emails - help@Kuzai.com, customersupport@Kuzai.com</p>
+        <p class="info">telephone - +2309318248, +23058046654</p>
+        <div class="footer-social-container">
+            <div>
+                <a href="#" class="social-link">terms & services</a>
+                <a href="#" class="social-link">privacy page</a>
+            </div>
+            <div>
+                <a href="#" class="social-link1"><img src="img/instagram.png" class="social-icon">instagram</a>
+                <a href="#" class="social-link1"><img src="img/facebook.png" class="social-icon">facebook</a>
+                <a href="#" class="social-link1"><img src="img/twitter.png" class="social-icon">twitter</a>
+            </div>
+        </div>
+        <p class="footer-credit">Kuzai, Best apparels online store!!!</p>
+    </footer>
+    
+    <script src="script.js"></script>
+
+</body>   
+</html>
